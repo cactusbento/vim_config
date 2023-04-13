@@ -44,8 +44,8 @@ highlight ALEWarning ctermbg=DarkGreen
 
 " set omnifunc=ale#completion#OmniFunc
 
-inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<TAB>"
-inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
+" inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<TAB>"
+" inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
 
 " let g:coc_disable_startup_warning = 1
 
