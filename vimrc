@@ -15,7 +15,7 @@ set softtabstop=4
 syntax enable
 
 call plug#begin()
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'dense-analysis/ale'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
@@ -36,7 +36,7 @@ let g:ale_set_highlights = 0
 
 set omnifunc=ale#completion#OmniFunc
 
-inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<TAB>"
-inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
+" inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<TAB>"
+" inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
 
 autocmd CompleteDone * pclose!
