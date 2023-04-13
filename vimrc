@@ -21,7 +21,7 @@ syntax enable
 call plug#begin()
 	" Plug 'neoclide/coc.nvim', {'tag': 'v0.0.80'}
 
-	Plug 'Shougo/deoplete.nvim'
+	Plug 'Shougo/deoplete.nvim', {'tag': '6.0'}
 	Plug 'roxma/nvim-yarp'
 	Plug 'roxma/vim-hug-neovim-rpc'
 	Plug 'prabirshrestha/vim-lsp'
