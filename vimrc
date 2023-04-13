@@ -1,4 +1,4 @@
-source /usr/share/vim/vimfiles/archlinux.vim
+" source /usr/share/vim/vimfiles/archlinux.vim
 
 set encoding=utf-8
 
