@@ -36,4 +36,7 @@ let g:ale_set_highlights = 0
 
 set omnifunc=ale#completion#OmniFunc
 
+inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<TAB>"
+inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
+
 autocmd CompleteDone * pclose!
