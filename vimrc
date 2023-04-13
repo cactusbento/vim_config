@@ -19,7 +19,7 @@ set softtabstop=4
 syntax enable
 
 call plug#begin()
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug 'neoclide/coc.nvim', {'tag': 'v0.0.80'}
 
 	Plug 'dense-analysis/ale'
 	Plug 'vim-airline/vim-airline'
