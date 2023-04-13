@@ -39,4 +39,6 @@ let g:ale_set_highlights = 0
 " inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<TAB>"
 " inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
 
+let g:coc_disable_startup_warning = 1
+
 autocmd CompleteDone * pclose!
